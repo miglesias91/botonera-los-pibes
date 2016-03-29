@@ -14,7 +14,7 @@ public class ReproducirBotonListener implements View.OnClickListener {
     }
 
     public void onClick( View view ) {
-        SetSonidos.getInstance().reprodcir( id_a_reproducir );
+        SetSonidos.getInstance().reproducir( id_a_reproducir );
     }
 
 }

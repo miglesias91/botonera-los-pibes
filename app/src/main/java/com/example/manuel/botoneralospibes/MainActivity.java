@@ -1,5 +1,6 @@
 package com.example.manuel.botoneralospibes;
 
+import android.media.Image;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        SetSonidos.getInstance().init(this);
 
         boton_franco_despertate_hdp = (ImageButton) findViewById( R.id.boton_franco_despertate_hdp );
         boton_franco_despertate_hdp.setOnClickListener(new ReproducirBotonListener(1));
@@ -43,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
         boton_jm_jojojo.setOnClickListener(new ReproducirBotonListener(7));
 
         boton_jm_osito_dormilon = (ImageButton) findViewById( R.id.boton_jm_osito_dormilon );
-        boton_jm_osito_dormilon.setOnClickListener(new ReproducirBotonListener( 8 ));
-
-        SetSonidos.getInstance().init(this);
+        boton_jm_osito_dormilon.setOnClickListener(new ReproducirBotonListener(8));
     }
 }

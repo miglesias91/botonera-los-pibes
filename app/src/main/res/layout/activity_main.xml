@@ -59,7 +59,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
-            android:src="@drawable/selector_jm"
+            android:src="@drawable/selector_franco"
             />
         <ImageButton
             android:id="@+id/boton_franco_he_guacho"
@@ -69,7 +69,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
-            android:src="@drawable/selector_jm"
+            android:src="@drawable/selector_franco"
             />
         <ImageButton
             android:id="@+id/boton_franco_madrid_papa"
@@ -79,7 +79,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
-            android:src="@drawable/selector_jm"
+            android:src="@drawable/selector_franco"
             />
     </LinearLayout>
     <LinearLayout
@@ -96,7 +96,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
-            android:src="@drawable/selector_jm"
+            android:src="@drawable/selector_franco"
             />
         <ImageButton
             android:id="@+id/boton_franco_rezarpado_reloco"
@@ -106,7 +106,8 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
-            android:src="@drawable/selector_jm"
+            android:src="@drawable/selector_franco"
             />
+
     </LinearLayout>
 </LinearLayout>
