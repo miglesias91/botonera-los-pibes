@@ -110,4 +110,16 @@
             />
 
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/boton_compartir_wa"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:src="@drawable/selector_franco"
+        />
+
 </LinearLayout>

@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton boton_jm_going_crazy;
     private ImageButton boton_jm_jojojo;
     private ImageButton boton_jm_osito_dormilon;
+    private ImageButton boton_compartir_wa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,5 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
         boton_jm_osito_dormilon = (ImageButton) findViewById( R.id.boton_jm_osito_dormilon );
         boton_jm_osito_dormilon.setOnClickListener(new ReproducirBotonListener(8));
+
+        boton_compartir_wa = (ImageButton) findViewById( R.id.boton_compartir_wa );
+        boton_compartir_wa.setOnClickListener( new CompartirAudioEnWhatsAppListener(this) );
     }
 }
