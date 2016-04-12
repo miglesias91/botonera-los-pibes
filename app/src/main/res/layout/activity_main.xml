@@ -18,17 +18,27 @@
         <ImageButton
             android:id="@+id/boton_jm_going_crazy"
             android:background="?android:selectableItemBackground"
-            android:layout_width="100dp"
+            android:layout_width="30dp"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
             android:src="@drawable/selector_jm"
+            />
+        <ImageButton
+            android:id="@+id/boton_jm_going_crazy_compartir"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/wa_icon"
             />
         <ImageButton
             android:id="@+id/boton_jm_jojojo"
             android:background="?android:selectableItemBackground"
-            android:layout_width="100dp"
+            android:layout_width="30dp"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
@@ -36,14 +46,34 @@
             android:src="@drawable/selector_jm"
             />
         <ImageButton
+            android:id="@+id/boton_jm_jojojo_compartir"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/wa_icon"
+            />
+        <ImageButton
             android:id="@+id/boton_jm_osito_dormilon"
             android:background="?android:selectableItemBackground"
-            android:layout_width="100dp"
+            android:layout_width="30dp"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
             android:src="@drawable/selector_jm"
+            />
+        <ImageButton
+            android:id="@+id/boton_jm_osito_dormilon_compartir"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/wa_icon"
             />
     </LinearLayout>
     <LinearLayout
@@ -54,17 +84,27 @@
         <ImageButton
             android:id="@+id/boton_franco_despertate_hdp"
             android:background="?android:selectableItemBackground"
-            android:layout_width="100dp"
+            android:layout_width="30dp"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
             android:src="@drawable/selector_franco"
+            />
+        <ImageButton
+            android:id="@+id/boton_franco_despertate_hdp_compartir"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/wa_icon"
             />
         <ImageButton
             android:id="@+id/boton_franco_he_guacho"
             android:background="?android:selectableItemBackground"
-            android:layout_width="100dp"
+            android:layout_width="30dp"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
@@ -72,14 +112,34 @@
             android:src="@drawable/selector_franco"
             />
         <ImageButton
+            android:id="@+id/boton_franco_he_guacho_compartir"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/wa_icon"
+            />
+        <ImageButton
             android:id="@+id/boton_franco_madrid_papa"
             android:background="?android:selectableItemBackground"
-            android:layout_width="100dp"
+            android:layout_width="30dp"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
             android:src="@drawable/selector_franco"
+            />
+        <ImageButton
+            android:id="@+id/boton_franco_madrid_papa_compartir"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/wa_icon"
             />
     </LinearLayout>
     <LinearLayout
@@ -91,7 +151,7 @@
         <ImageButton
             android:id="@+id/boton_franco_re_va"
             android:background="?android:selectableItemBackground"
-            android:layout_width="100dp"
+            android:layout_width="30dp"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
@@ -99,27 +159,43 @@
             android:src="@drawable/selector_franco"
             />
         <ImageButton
+            android:id="@+id/boton_franco_re_va_compartir"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/wa_icon"
+            />
+        <ImageButton
             android:id="@+id/boton_franco_rezarpado_reloco"
             android:background="?android:selectableItemBackground"
-            android:layout_width="100dp"
+            android:layout_width="30dp"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_weight="1"
             android:src="@drawable/selector_franco"
             />
-
+        <ImageButton
+            android:id="@+id/boton_franco_rezarpado_reloco_compartir"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/wa_icon"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
     </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/boton_compartir_wa"
-        android:background="?android:selectableItemBackground"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:layout_weight="1"
-        android:src="@drawable/selector_franco"
-        />
 
 </LinearLayout>
